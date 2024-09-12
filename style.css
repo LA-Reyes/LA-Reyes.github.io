@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+.navbar {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #f0a500;
+}
+
+.section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#home {
+    background-color: #f0a500;
+    color: white;
+}
+
+#about {
+    background-color: #fff;
+    color: #333;
+}
+
+#projects {
+    background-color: #eee;
+    color: #333;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.project-card {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: left;
+}
+
+.project-card h3 {
+    color: #f0a500;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
